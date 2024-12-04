@@ -82,3 +82,14 @@ class MainActivity : ComponentActivity() {
             Text("Appeler un numéro")
         }
     }
+@Preview(showBackground = true, name = "Interactive Buttons Preview")
+@Composable
+fun PreviewInteractiveButtonsApp() {
+    InteractiveButtonsApp(activity = FakeActivity())
+}
+
+/**
+ * Fake activity to simulate the preview in the IDE.
+ * During runtime, this will not affect the actual implementation.
+ */
+class FakeActivity : Activity()
