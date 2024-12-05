@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kotline-avancer/tuto/src/tuto8/8-1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kotline-avancer/tuto/src/tuto8/8-2" vcs="Git" />
   </component>
 </project>
